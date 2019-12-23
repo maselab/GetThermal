@@ -10,9 +10,23 @@
 #include "leptonvariation.h"
 #include "dataformatter.h"
 #include "rangeprovider.h"
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
 
 int main(int argc, char *argv[])
 {
+/*
+    const char *fileName = "../test.txt";
+
+    std::ofstream ofs(fileName);
+    if(!ofs){
+        std::exit(1);
+    }
+    if(ofs){
+        printf("a");
+    }
+    */
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QGuiApplication app(argc, argv);
 

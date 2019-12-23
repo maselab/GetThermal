@@ -16,8 +16,8 @@
 
 int main(int argc, char *argv[])
 {
-/*
-    const char *fileName = "../test.txt";
+
+    const char *fileName = "/tmp/test.txt";
 
     std::ofstream ofs(fileName);
     if(!ofs){
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     if(ofs){
         printf("a");
     }
-    */
+
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QGuiApplication app(argc, argv);
 
